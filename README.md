@@ -1,4 +1,15 @@
-# Next.js + Tailwind CSS Example
+# Netflix- clone app
+
+This app is made using - 
+👉 TAILWIND CSS
+👉 NEXTJS SSR (Server Side Rendering)
+👉 TMDB API
+👉 FIREBASE V9 SDK
+👉 FIREBASE AUTHENTICATION
+👉 VERCEL HOSTING (How to deploy)
+👉 RECOIL (State management within React)
+
+All thanks to this YT video - https://www.youtube.com/watch?v=cwqNAkwhKqw
 
 This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
 
