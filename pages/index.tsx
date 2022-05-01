@@ -5,7 +5,7 @@ import Header from '../Components/Header'
 
 const Home: NextPage = () => {
   return (
-    <div className="">
+    <div>
       <Head>
         <title>Home-Netflix</title>
         <link rel="icon" href="/favicon.ico" />

@@ -12,11 +12,11 @@ const Header = () => {
           className="object-contain cursor-pointer"
         />
         <ul className="hidden space-x-4 md:flex">
-          <li className="headerLinks">Home</li>
-          <li className="headerLinks">TV Shows</li>
-          <li className="headerLinks">Movies</li>
-          <li className="headerLinks">New & Popular</li>
-          <li className="headerLinks">My List</li>
+          <li className="headerLink">Home</li>
+          <li className="headerLink">TV Shows</li>
+          <li className="headerLink">Movies</li>
+          <li className="headerLink">New & Popular</li>
+          <li className="headerLink">My List</li>
         </ul>
       </div>
 
