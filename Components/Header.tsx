@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import { BellIcon, SearchIcon } from '@heroicons/react/solid'
 
 const Header = () => {
   return (
@@ -20,7 +21,11 @@ const Header = () => {
         </ul>
       </div>
 
-      <div></div>
+      <div>
+        <SearchIcon className="hidden w-6 h-6 sm:inline" />
+        <p className="hidden lg:inline">Kids</p>
+        <BellIcon className="hidden w-6 h-6 " />
+      </div>
     </header>
   )
 }
