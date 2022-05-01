@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import { BellIcon, SearchIcon } from '@heroicons/react/solid'
+import Link from 'next/link'
 
 const Header = () => {
   return (
@@ -21,10 +22,19 @@ const Header = () => {
         </ul>
       </div>
 
-      <div>
-        <SearchIcon className="hidden w-6 h-6 sm:inline" />
+      <div className="flex items-center space-x-4 text-sm font-light">
+        <SearchIcon className="hidden w-6 h-6 sm sm:inline" />
         <p className="hidden lg:inline">Kids</p>
-        <BellIcon className="hidden w-6 h-6 " />
+        <BellIcon className="w-6 h-6" />
+        <Link href="/account">
+          <Image
+            width={40}
+            height={40}
+            src="https://rb.gy/g1pwyx"
+            alt=""
+            className="rounded cursor-pointer"
+          />
+        </Link>
       </div>
     </header>
   )
